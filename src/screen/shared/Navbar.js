@@ -16,8 +16,8 @@ const Navbar = () => {
 
     })
     return (
-        <div className="navbar lg:w-3/4 2xl:w-2/4 mx-auto  overflow-hidden ">
-            <header className="lg:w-full lg:mx-auto  lg:mr-12 mt-6">
+        <div className=" w-full  navbar lg:pl-12 lg:pr-12">
+            <header className=" lg:pl-2 lg:pr-2 lg:w-full lg:mx-auto  lg:mr-12 mt-6">
                 <nav className="flex items-center justify-between pr-3 lg:py-4 lg:pr-0" aria-label="Global"  >
                     <div className="flex lg:flex-1 ">
 

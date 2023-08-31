@@ -9,6 +9,7 @@ import { useEffect, useState } from 'react';
 import Loader from './pages/loader/Loader';
 import ABout from './pages/home/About';
 import Footer from './screen/shared/Footer';
+import  Navbar  from './screen/shared/Navbar';
 function App() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
@@ -22,7 +23,7 @@ function App() {
       <Loader></Loader >
     </div > : <div className="App">
     <BrowserRouter>
-      {/* <Navbar></Navbar> */}
+      <Navbar></Navbar>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />

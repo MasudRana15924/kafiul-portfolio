@@ -1,11 +1,12 @@
 import React from 'react';
 import img from '../../assets/banner.png';
 import { BsGithub, BsLinkedin, BsInstagram } from 'react-icons/bs';
+
 const Banner = () => {
 
     return (
-        <div className="mx-auto lg:w-3/4 2xl:w-2/4 border border-white" >
-
+        <div className="mx-auto lg:w-3/4 2xl:w-2/4 border border-white  mt-12 lg:mt-24" >
+               
             <img src={img} alt="" className="w-full banner-image h-96 border mt-12" />
             <div>
                 <p className="text-center  text-4xl lg:text-8xl font-thin mt-8">MD. KAFIUL BIN ISLAM</p>
