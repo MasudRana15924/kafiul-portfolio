@@ -1,7 +1,8 @@
 import React from 'react';
-import img from '../../assets/banner.png';
+import img from '../../assets/banner.jpg';
 import { GiCheckMark} from 'react-icons/gi';
-import { BsSend,BsDownload} from 'react-icons/bs';
+import { BsSend,BsDownload, BsDiamond} from 'react-icons/bs';
+import { AiOutlineLine } from 'react-icons/ai';
 
 
 const About = () => {
@@ -11,9 +12,14 @@ const About = () => {
             <div className="lg:mt-4">
                 <div className="lg:w-full lg:pl-5 " >
                     <div className="">
-                        <p className="text-center text-4xl lg:text-5xl font-bold  pl-2 lg:pl-0">ABOUT ME</p>
+                        <p className="text-center text-4xl lg:text-7xl font-bold  pl-2 lg:pl-0">ABOUT ME</p>
 
                     </div>
+                    <div className="w-1/4 mx-auto flex mt-4 gap-4">
+                    <AiOutlineLine className="text-center lg:ml-20"></AiOutlineLine>
+                    <BsDiamond></BsDiamond>
+                    <AiOutlineLine className="text-center "></AiOutlineLine>
+                </div>
                 </div>
             </div>
             <div className="lg:flex lg:justify-between gap-4 mt-20">

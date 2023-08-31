@@ -5,6 +5,7 @@ import Education from './Education';
 import Stats from './Stats';
 import Freelancing from './Freelancing';
 import Touch from './Touch';
+import Works from './Works';
 
 
 
@@ -15,6 +16,7 @@ const Home = () => {
           <Banner></Banner>
           <About></About>
           <Education></Education>
+          <Works></Works>
           <Stats></Stats>
           <Freelancing></Freelancing>
           <Touch></Touch>

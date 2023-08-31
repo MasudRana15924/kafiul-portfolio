@@ -2,10 +2,17 @@ import React from 'react';
 import diu from '../../assets/diu.png';
 import college from '../../assets/college.png';
 import school from '../../assets/school.png';
+import { AiOutlineLine } from 'react-icons/ai';
+import { BsDiamond } from 'react-icons/bs';
 const Education = () => {
     return (
         <div className="lg:w-3/4 mx-auto 2xl:w-2/4 border border-white" >
             <p className="text-center text-gray-900 text-xl lg:text-7xl ml-4 lg:ml-0 font-semibold mt-24 lg:mt-36">RESUME </p>
+            <div className="w-1/4 mx-auto flex mt-4 gap-4">
+                    <AiOutlineLine className="text-center lg:ml-20"></AiOutlineLine>
+                    <BsDiamond></BsDiamond>
+                    <AiOutlineLine className="text-center "></AiOutlineLine>
+                </div>
             <section class="timeline-section">
             <p className="text-xl font-semibold">EDUCATION</p>
                 <div class="timeline-items ">
