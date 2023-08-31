@@ -8,7 +8,7 @@ const Banner = () => {
 
             <img src={img} alt="" className="w-full banner-image h-96 border mt-12" />
             <div>
-                <p className="text-center text-8xl font-thin mt-8">MD. KAFIUL BIN ISLAM</p>
+                <p className="text-center  text-4xl lg:text-8xl font-thin mt-8">MD. KAFIUL BIN ISLAM</p>
                 <p className="w-3/4 mx-auto text-start text-md font-thin mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque reprehenderit dolorum, voluptates animi, dicta quisquam fuga quia porro ex nesciunt, voluptatum obcaecati veniam accusantium expedita alias repellat itaque unde placeat.</p>
             </div>
             <div className="w-1/4 mx-auto flex justify-between mt-8">

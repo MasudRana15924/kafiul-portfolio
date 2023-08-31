@@ -1,13 +1,22 @@
 import React from 'react';
-import logo from '../../assets/logo.png'
+
+import { Blocks } from 'react-loader-spinner'
 
 const Loader = () => {
     return (
-        <div className="w-2/4 lg:w-1/4 mx-auto mt-64 lg:mt-76">
-            <img src={logo} alt="" className="mt-44"/>
-            <div class="blob">
-            
-        </div>
+        <div className="w-full lg:w-1/4 2xl:w-1/4 mx-auto mt-96 lg:mt-96 ">
+            <div  className="w-1/4 mx-auto">
+            <Blocks
+                visible={true}
+                height="80"
+                width="80"
+                ariaLabel="blocks-loading"
+                wrapperStyle={{}}
+                wrapperClass="blocks-wrapper"
+                color="#4fa94d"
+               
+            />
+            </div>
         </div>
     );
 };
